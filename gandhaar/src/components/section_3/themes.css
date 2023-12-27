@@ -1,0 +1,143 @@
+.theme_title {
+    font-family: 'Great Vibes';
+    font-size: 11.5vw;
+    text-shadow: -3px 5px black;
+    color: blanchedalmond;
+}
+
+.cards {
+    --cards-text-color: white;
+    --animation-speed-normal: 0.5s;
+    --animation-speed-fast: 0.25s;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.card {
+    width: 10%;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    transition: all var(--animation-speed-normal) ease-in-out;
+    cursor: pointer;
+}
+
+.card.active {
+    width: 60vw;
+}
+
+.card__image {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    filter: brightness(0.675) saturate(75%);
+    transition: filter var(--animation-speed-fast) ease-in-out;
+}
+
+.card:hover .card__image {
+    filter: brightness(0.875) saturate(100%);
+}
+
+.card__infos {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    z-index: 2;
+    height: var(--cards-closed-size);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.125rem;
+    width: 100%;
+}
+
+.card__day {
+    margin: 0;
+    color: var(--cards-text-color);
+    transform: rotateZ(-90deg);
+    transition: all var(--animation-speed-normal) ease-in-out;
+    font-size: 3.5vw;
+}
+
+.card.active .card__infos {
+    top: 0;
+    bottom: 0;
+}
+
+.card.active .card__day {
+    transform: translateY(0);
+}
+
+.card__theme {
+    display: none;
+    margin: 0;
+    font-size: 4.5vw;
+    color: var(--cards-text-color);
+    text-decoration: none;
+    transform: translateY(0.65rem);
+    opacity: 0;
+    transition: opacity var(--animation-speed-fast) ease-in-out, transform var(--animation-speed-normal) ease-in-out;
+}
+
+.card__theme.desc {
+    font-size: 3vw;
+}
+
+.card.active .card__theme {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+@media screen and (max-width:665px) {
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        height: 10vh;
+    }
+
+    .card.active {
+        height: 60vh;
+        width: 90%;
+    }
+
+    .card__day {
+        transform: rotateZ(0deg);
+        font-size: 7.5vw;
+    }
+
+    .card__infos {
+        bottom: 30%;
+    }
+
+    .card__theme {
+        font-size: 10vw;
+    }
+
+    .card__theme.desc {
+        font-size: 8vw;
+    }
+
+    .theme_title {
+        font-size: 10vh;
+    }
+}

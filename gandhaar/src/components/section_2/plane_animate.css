@@ -1,0 +1,14 @@
+.plane_animation {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+
+.plane {
+    width: 98vw;
+    height: 95vh;
+}
+
+#spaceship {
+    transform: translateY(11px) rotate(180deg);
+}

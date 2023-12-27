@@ -1,0 +1,33 @@
+.header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo1 {
+    max-width: 19vh;
+    max-height: 19vh;
+}
+
+#logo2 {
+    max-width: 20vw;
+    max-height: 18vh;
+}
+
+.college-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:665px) {
+    #logo1 {
+        max-height: 12vh; 
+        max-width: 12vh;
+    }
+
+    .college-name {
+        font-size: 15px;
+    }
+    
+}
