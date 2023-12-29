@@ -12,8 +12,8 @@ const Polaroid = () => {
             <div className="pre_themes">
 
                 <section className="polaroid-themes">
-                    <h1 className="section-title">
-                        <span style={{fontFamily: 'Great Vibes', fontSize: '7.5vw', color: 'black'}}>Pre-Gandhaar</span><br></br>
+                    <h1>
+                        <span className="section-title" >Pre-Gandhaar</span><br></br>
                         <span>Themes and Activities</span>
                     </h1>
 
