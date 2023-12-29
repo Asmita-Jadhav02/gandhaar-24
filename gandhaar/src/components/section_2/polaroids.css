@@ -14,7 +14,7 @@
     position: relative;
     z-index: 3;
     overflow-x: hidden;
-    min-height:150vh;
+    min-height:100vh;
 }
 
 .section-title {
@@ -24,6 +24,7 @@
     font-family: 'Great Vibes';
     font-size: 7.5vw;
     color: black;
+    text-shadow: -1px 3px cadetblue;
 }
 
 .polaroid-card {
@@ -76,8 +77,5 @@
     font-size: 10vh;
   }
 
-  .polaroid-themes {
-    height: 275vh;
-  }
-
 }
+

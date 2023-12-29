@@ -9,6 +9,7 @@
     color: black;
     z-index: 10;
     position: relative;
+    text-shadow: -3px 4px indianred;
   }
 
   .event-page-link {
@@ -162,7 +163,7 @@
   
   @media screen and (max-width:665px) {
     .section4{
-      height: 80vh;
+      height: 90vh;
     }
 
     .events-title {

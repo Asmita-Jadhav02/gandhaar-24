@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 
+.section1 {
+ min-height: 100vh;
+}
 
 .globe_animated {
 	 background: -webkit-radial-gradient(center, ellipse cover, #fff 0%, #f2efd9 80%);
