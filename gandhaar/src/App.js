@@ -4,16 +4,38 @@ import Header from './components/section_1/header';
 import Section2 from './components/section2';
 import Section3 from './components/section3';
 import Section4 from './components/section4';
+import Section8 from './components/section8';
+import Navbar from './components/navbar/Navbar';
+
+import TeamCarousel from './components/section_8/TeamCarousel';
+import DeveloperTeam from './components/section_8/DeveloperTeam';
+
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Section1></Section1>
+       <Navbar/>
+      <section id='home'>
+        <Header/>
+        <Section1></Section1>
+      </section>
+     
+      <section id='pre-gandhaar'>
       <Section2></Section2>
+      </section>
+      <section id='day-wise-themes'>
       <Section3></Section3>
-      <Section4></Section4>
+      </section>
       
+      <section id='section4'>
+        <Section4></Section4>
+      </section>
+
+      <section id='team'>
+       <DeveloperTeam/>
+      </section>
+     
+     
     </div>
   );
 }

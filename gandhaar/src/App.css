@@ -8,3 +8,9 @@
   display: none;
 }
 
+a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Set text color to a blue shade, you can change it to your preferred color */
+  transition: color 0.3s ease; /* Add a smooth transition effect on color change */
+}
+
