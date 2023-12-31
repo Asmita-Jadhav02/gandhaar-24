@@ -1,0 +1,26 @@
+.section5 {
+    width: 100vw;
+    height: 110vh;
+    background: linear-gradient(0deg, rgba(242,239,217,1) 0%, rgba(241,230,210,1) 15%, rgba(237,180,173,1) 41%, rgba(234,143,145,1) 58%, rgba(231,107,118,1) 81%, rgba(230,97,110,1) 100%);
+}
+
+.g_text {
+    padding-top: 6.5vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    font-family: 'Great Vibes';
+    font-size: 7.5vw;
+    color: black;
+    text-shadow: -1px 3px blanchedalmond;
+}
+
+@media screen and (max-width:665px) {
+    .g_text {
+      font-size: 5.5vh;
+    }
+
+    .section5 {
+        height: 85vh;
+    }
+  
+  }

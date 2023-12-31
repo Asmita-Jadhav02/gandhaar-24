@@ -7,7 +7,6 @@ const Events = ({ items }) => {
   const [active, setActive] = useState(0);
   const [isDown, setIsDown] = useState(false);
 
-  const speedWheel = 0.02;
   const speedDrag = -0.1;
 
   const carouselRef = useRef(null);
@@ -39,11 +38,6 @@ const Events = ({ items }) => {
   const handleItemClick = (index) => {
     setProgress((index / items.length) * 100 + 10);
     console.log(index);
-  };
-
-  const handleWheel = (e) => {
-    const wheelProgress = e.deltaY * speedWheel;
-    setProgress((prevProgress) => prevProgress + wheelProgress);
   };
 
   const handleMouseMove = (e) => {

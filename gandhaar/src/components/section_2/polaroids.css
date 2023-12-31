@@ -14,7 +14,7 @@
     position: relative;
     z-index: 3;
     overflow-x: hidden;
-    min-height:100vh;
+    min-height:110vh;
 }
 
 .section-title {
@@ -74,7 +74,7 @@
 
 @media screen and (max-width:665px) {
   .section-title {
-    font-size: 10vh;
+    font-size: 9vh;
   }
 
 }
