@@ -9,10 +9,35 @@ import Navbar from './components/navbar/Navbar';
 
 import TeamCarousel from './components/section_8/TeamCarousel';
 import DeveloperTeam from './components/section_8/DeveloperTeam';
+import { useEffect, useState } from 'react';
+import Loader from './components/loader/Loader';
 
 
 function App() {
-  return (
+
+  const [isLoading,setIsLoading] = useState(true);
+  const [isStarted, setIsStarted] = useState(false);
+
+
+  useEffect(() => {
+    const fakeFetchData = () => {
+      setTimeout(()=>{
+        setIsLoading(false);
+      },4000);
+    }
+
+    fakeFetchData();
+  },[])
+
+  const handleStartClick = () => {
+    setIsStarted(true);
+  };
+
+
+
+   return isLoading ? (
+    <Loader onStartClick={handleStartClick} />
+  ) : isStarted ? (
     <div className="App">
        <Navbar/>
       <section id='home'>
@@ -37,6 +62,8 @@ function App() {
      
      
     </div>
+  ) : (
+    <Loader onStartClick={handleStartClick} />
   );
 }
 

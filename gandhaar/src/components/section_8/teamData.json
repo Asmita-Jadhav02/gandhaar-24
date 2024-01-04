@@ -1,45 +1,66 @@
 
 [
     {
-      "name": "Sakshi Todmal",
+      "name": "Khushi Gosavi",
       "title": "",
-      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+      "image": ""
       
     },
     {
-      "name": "Asmita Jadhav",
+      "name": "Mrunal Jambenal",
       "title": "",
-      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+      "image": ""
     },
     {
-      "name": "Tom Cruise",
+      "name": "Aishwarya Menon",
       "title": "",
-      "image": "https://1.bp.blogspot.com/-AO5j2Y9lzME/YLjr3mxiqAI/AAAAAAAACPE/KAaYYTtQTrgBE3diTbxGoc4U4fCGx-C2gCNcBGAsYHQ/s16000/team-1-4.jpg"
+      "image": "./Images/AishwaryaMenonImage.jpeg"
     },
     {
-      "name": "Scarlett Johansson",
+      "name": "Sakshi Pawar",
       "title": "",
-      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+      "image": "./Images/SakshiPawarImage.jpeg"
     },
     {
-      "name": "Chris Hemsworth",
+      "name": "Ruchi Honale",
       "title": "",
-      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+      "image": "./Images/RuchiHonaleImage.jpeg"
     },
     {
-        "name": "Chris Hemsworth",
+        "name": "Harshita Khairnar",
         "title": "",
-        "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+        "image": "./Images/HarshitaKhairnar.jpeg"
       },
       {
-        "name": "Chris Hemsworth",
+        "name": "Sai Wani",
         "title": "",
-        "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+        "image": "./Images/SaiWaniImage.jpeg"
       },
     {
-      "name": "Emma Watson",
+      "name": "Adwita Jain",
+      "title": "",
+      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+    },
+    {
+      "name": "Snigdha Srivastava",
+      "title": "",
+      "image": "./Images/snigdha_photo13.jpeg"
+    },
+    {
+      "name": "Purva Sarda",
+      "title": "",
+      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+    },
+    {
+      "name": "Eesha Satvalekar",
+      "title": "",
+      "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
+    },
+    {
+      "name": "",
       "title": "",
       "image": "https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg"
     }
+
   ]
   
