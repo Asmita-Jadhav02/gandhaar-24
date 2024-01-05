@@ -1,0 +1,103 @@
+/* TeamCarousel.css 
+ 
+*/
+
+.team-carousel {
+    max-width: 1200px;
+    background: rgb(226,50,75);
+    background: linear-gradient(45deg, rgba(226,50,75,1) 0%, rgba(226,50,75,0.8772759103641457) 35%, rgba(226,50,75,0.5635504201680672) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto 100px; /* Centered margin and removed left margin */
+    box-shadow: 20px 20px 20px rgba(17, 16, 16, 0.1);
+  }
+  
+  .grid-title {
+    color: #f8f2f2;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  
+  }
+  
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid columns */
+    gap: 20px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .member-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  
+  }
+  
+  .member-title {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px;
+    margin: 0 5px; /* Reduced margin for buttons */
+    font-size: 20px; /* Adjusted font size for buttons */
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+  }
+  
+  .button-container button.active {
+    background-color: #fff;
+    color: #E2324B;
+  }
+  
+ /* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .team-members {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+        gap: 5px; /* Reduced gap between team members */
+        margin-left: 2px;
+    }
+
+    .team-member {
+        padding: 10px; /* Reduced padding for team members on smaller screens */
+        margin-bottom: 10px; /* Add margin at the bottom for spacing */
+    }
+
+    .button-container button {
+        font-size: 16px; /* Adjusted font size for buttons on smaller screens */
+    }
+}
+
+  
+  

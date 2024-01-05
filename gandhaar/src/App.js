@@ -11,6 +11,7 @@ import TeamCarousel from './components/section_8/TeamCarousel';
 import DeveloperTeam from './components/section_8/DeveloperTeam';
 import { useEffect, useState } from 'react';
 import Loader from './components/loader/Loader';
+import Schedule from './components/schedule/Schedule';
 
 
 function App() {
@@ -60,6 +61,9 @@ function App() {
        <DeveloperTeam/>
       </section>
      
+      <section id='schedule'>
+        <Schedule/>
+      </section>
      
     </div>
   ) : (

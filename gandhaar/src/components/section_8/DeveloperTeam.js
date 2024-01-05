@@ -1,14 +1,14 @@
 // DeveloperTeam.js
 
 import React from 'react';
-import './TeamCarousel.css';
+import './DeveloperTeam.css';
 import teamData from './teamData.json';
+
 
 const DeveloperTeam = () => {
   return (
    <>
     <div className="team-carousel">
-    <h2 className="grid-title">Website & App Development Team</h2>
       <div className="team-members">
         {teamData.map((member) => (
           <div key={member.id} className="team-member">

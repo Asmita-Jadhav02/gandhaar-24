@@ -1,8 +1,11 @@
-/* TeamCarousel.css */
+/* TeamCarousel.css 
+ 
+*/
 
 .team-carousel {
   max-width: 1200px;
-  background-color: #E2324B;
+  background: rgb(226,50,75);
+  background: linear-gradient(45deg, rgba(226,50,75,1) 0%, rgba(226,50,75,0.8772759103641457) 35%, rgba(226,50,75,0.5635504201680672) 100%);
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto 100px; /* Centered margin and removed left margin */
@@ -10,10 +13,12 @@
 }
 
 .grid-title {
-  color: #fff;
+  color: #f8f2f2;
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+
 }
 
 .team-members {
@@ -45,6 +50,8 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+
 }
 
 .member-title {
@@ -77,10 +84,15 @@
 /* Media Query for smaller screens */
 @media screen and (max-width: 768px) {
   .team-members {
-      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Single column for smaller screens */
+      grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+  }
+
+  .team-member {
+      padding: 10px; /* Reduced padding for team members on smaller screens */
   }
 
   .button-container button {
       font-size: 16px; /* Adjusted font size for buttons on smaller screens */
   }
 }
+
