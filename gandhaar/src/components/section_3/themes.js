@@ -11,27 +11,27 @@ const Themes = () => {
   const Data = [
     {
       day_no: 'Day 1',
-      imageSrc: 'https://i.pinimg.com/736x/f1/3c/1a/f13c1ac2b78a6bc9a29b5597377ed060.jpg',
-      theme: 'Wordly Wardrobes',
-      desc: 'Explore the diversity of the world, through cultures, places and much more.'
+      imageSrc: 'https://assets.vogue.com/photos/610c22777b605859b4b99b5f/master/w_2560%2Cc_limit/00-story.jpeg',//'https://i.pinimg.com/736x/f1/3c/1a/f13c1ac2b78a6bc9a29b5597377ed060.jpg',
+      theme: 'Luxe Showdown',
+      desc: 'With all the Ladies on board,we begin our journey by bringing the Fashion Capitals straight on our Campus!'
     },
     {
       day_no: 'Day 2',
-      imageSrc: 'https://cdn.shopify.com/s/files/1/0070/7032/files/start-a-clothing-line-sarah-donofrio-drawing_b2e177e7-405f-4304-82c4-dd7214135a46.jpg?v=1693936691',//'https://i.pinimg.com/736x/60/ec/54/60ec54bbcec73952c8a812adf36c0519.jpg',
-      theme: 'Time Travel: \nA Fashion Journey through Decades',
-      desc: 'Let\'s celebrate the fashion trends of the 80s, 90s, 2000s and 2010s!'
+      imageSrc: 'https://i.pinimg.com/736x/3d/ef/a0/3defa0ae44291fa0cf071c6b54d290c4.jpg',//'https://cdn.shopify.com/s/files/1/0070/7032/files/start-a-clothing-line-sarah-donofrio-drawing_b2e177e7-405f-4304-82c4-dd7214135a46.jpg?v=1693936691',//'https://i.pinimg.com/736x/60/ec/54/60ec54bbcec73952c8a812adf36c0519.jpg',
+      theme: 'Era\'s of Elegance',
+      desc: 'Let\'s celebrate the the best fashion, styles, sounds, and vibes from bygone eras of the 50s, 60s, 70s and 80s!'
     },
     {
       day_no: 'Day 3',
       imageSrc: 'https://i.dailymail.co.uk/1s/2019/05/18/08/13648248-7042225-image-m-25_1558163413971.jpg',
-      theme: 'Oscar Night',
+      theme: 'Haute Fashion',
       desc: 'Red Carpet like never before! Let\'s unleash the creative elegance of all. '
     },
     {
       day_no: 'Day 4',
       imageSrc: 'https://i.pinimg.com/736x/63/5f/68/635f6843641eaa51d7e9c2935786dc35.jpg',
       theme: 'Traditional Treasures',
-      desc: 'Celebration of our culture, traditions and outfits.'
+      desc: 'Adorn yourself in the finest ethnic attire, from the glittering elegance to the colorful hues.'
     },
     
   ];

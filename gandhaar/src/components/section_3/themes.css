@@ -91,6 +91,10 @@
     font-size: 2.5vw;
 }
 
+.card.active:hover .card__image {
+    filter: brightness(0.575) saturate(100%);
+}
+
 .card__theme {
     display: none;
     margin: 0;

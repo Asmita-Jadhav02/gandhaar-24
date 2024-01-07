@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './cards.css';
+import { NavLink } from "react-router-dom";
 
 const Events = ({ items }) => {
   const [progress, setProgress] = useState(50);
@@ -89,13 +90,11 @@ const Events = ({ items }) => {
   return (
     <div ref={carouselRef} className="carousel">
       {items.map((item, index) => (
-        <div key={index} className="carousel-item" onClick={() => handleItemClick(index)} style={{ display: index === 9 ? 'none' : 'block' }}>
+        <div key={index} className="carousel-item" onClick={() => handleItemClick(index)} style={{ opacity: (index === 12) || (index === 0) ? 0 : 1 }}>
           <div className="carousel-box">
             <div className="title">{item.title}
               <br></br>
-              <a className="event-page-link" href={item.link} target="_blank" rel="noopener noreferrer">
-                <span>See Events &#x2192;</span>
-              </a>
+              <NavLink to={`/events/${item.link_id}`} className="event-page-link"><span>See Events &#x2192;</span></NavLink>
             </div>
             <div className="num">{item.num}</div>
             <img alt={item.title} src={item.image} />

@@ -15,6 +15,8 @@
     z-index: 3;
     overflow-x: hidden;
     min-height:110vh;
+  padding-bottom: 5vh;
+
 }
 
 .section-title {
@@ -76,6 +78,10 @@
   .section-title {
     font-size: 9vh;
   }
+
+  .polaroid-card:hover {
+    transform: scale(1.15);
+}
 
 }
 

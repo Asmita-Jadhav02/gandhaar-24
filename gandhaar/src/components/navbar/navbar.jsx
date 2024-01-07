@@ -21,6 +21,7 @@ const Navbar = () => {
         <div className="nav-items">
           <div className="circle"><a href='#home'>HOME</a></div>
           <div className="circle"><a href='#themes'>THEMES</a></div>
+          <div className="circle workshop"><a href='#'>WORKSHOPS</a></div>
           <div className="circle"><a href='#events'>DAY-WISE THEMES</a></div>
           <div className="circle"><a href='#gallery'>GALLERY</a></div>
         </div>

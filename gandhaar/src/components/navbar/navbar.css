@@ -41,6 +41,12 @@
     
   }
 
+  .workshop {
+    width: 80px; 
+    height: 80px; 
+    box-shadow: 0 0 15px rgb(65, 44, 36);
+  }
+
   .circle a {
     text-decoration: none;
     color: #fff;
