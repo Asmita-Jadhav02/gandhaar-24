@@ -1,3 +1,8 @@
+.section2 {
+  position: relative;
+  background: linear-gradient(0deg, rgba(45,148,141,1) 0%, rgba(61,155,147,1) 24%, rgba(101,174,163,1) 46%, rgba(117,181,169,1) 53%, rgba(149,196,181,1) 66%, rgba(197,218,200,1) 86%, rgba(242,239,217,1) 100%);
+}
+
 .pre_themes {
     width: 100vw;
     height: max-content;
@@ -9,13 +14,19 @@
     position: relative;
     z-index: 3;
     overflow-x: hidden;
-    min-height:120vh;
+    min-height:110vh;
+  padding-bottom: 5vh;
+
 }
 
 .section-title {
     padding-top: 8.5vh;
     padding-bottom: 4vh;
     text-align: center;
+    font-family: 'Great Vibes';
+    font-size: 7.5vw;
+    color: black;
+    text-shadow: -1px 3px cadetblue;
 }
 
 .polaroid-card {
@@ -63,87 +74,14 @@
     transform: scale(1.25);
 }
 
-/*
+@media screen and (max-width:665px) {
+  .section-title {
+    font-size: 9vh;
+  }
 
-body {
-  background: url(http://zurb.com/playground/uploads/upload/upload/87/wood-bg.jpg) repeat;
+  .polaroid-card:hover {
+    transform: scale(1.15);
 }
 
-.polaroid-gallery {
-  text-align: center;
 }
 
-.polaroid-gallery-title {
-  font-size: 32px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #333;
-}
-
-.polaroid-card {
-  display: inline-block;
-  background-color: #eee6d8;
-  padding: 10px;
-  box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.7);
-}
-
-.polaroid-card-caption {
-  text-align: center;
-  font-family: "Marker Felt",sans-serif;
-  font-size: 12px;
-  margin-top: 6px;
-  letter-spacing: 2px;
-}
-
-.polaroid-card:nth-of-type(even) {
-  transform: rotate(12deg);
-}
-
-.polaroid-card:nth-of-type(odd) {
-  transform: rotate(-12deg);
-}
-
-.polaroid-card:nth-of-type(even)::before {
-  content: '';
-  display: block;
-  background-color: rgba(222, 220, 200, 0.66);
-  width: 100px;
-  height: 25px;
-  transform: rotate(-24deg) translate(-30px, -25px);
-}
-
-.polaroid-card:nth-of-type(odd)::before {
-  content: '';
-  display: block;
-  background-color: rgba(222, 220, 200, 0.66);
-  width: 100px;
-  height: 25px;
-  transform: translate(140px, -5px) rotate(25deg);
-}
-
-.polaroid-card:hover {
-  transform: scale(1.5);
-}
-<body>
-  <section class="polaroid-gallery">
-    <h1 class="polaroid-gallery-title">Pre - Gandhaar Themes</h1>
-    <figure class="polaroid-card">
-      <img src="https://cdn.pixabay.com/photo/2010/12/13/10/12/swan-2515_1280.jpg" width="200" height="200" alt="Swan"> 
-      <figcaption class="polaroid-card-caption">Day 1<br>Day 1<br>Day 1<br>Day 1<br></figcaption>
-    </figure>
-    <figure class="polaroid-card">
-      <img src="https://cdn.pixabay.com/photo/2019/10/31/14/36/geese-4591987_1280.jpg" width="200" height="200" alt="Geese">
-      <figcaption class="polaroid-card-caption">Geese</figcaption>
-    </figure>
-    <figure class="polaroid-card">
-      <img src="https://cdn.pixabay.com/photo/2016/12/13/22/25/kingfisher-1905255_1280.jpg" width="200" height="200" alt="Kingfisher">
-      <figcaption class="polaroid-card-caption">Kingfisher</figcaption>
-    </figure>
-    <figure class="polaroid-card">
-      <img src="https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_1280.jpg" width="200" height="200" alt="Owl">
-      <figcaption class="polaroid-card-caption">Owl</figcaption>
-    </figure>
-  </section>
-  <script src="script.js"></script>
-</body>
-*/

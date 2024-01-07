@@ -1,0 +1,222 @@
+.gallery {
+    margin-top: 5vh;
+}
+
+.gallery_svg {
+    width: 0;
+    height: 0;
+    display: block;
+}
+
+.grid {
+    width: 80vmin;
+    margin: 10vmin auto;
+    display: flex;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 8vmin 4vmin rgba(0, 0, 0, 0.1), inset 0px 0px 8vmin 4vmin rgba(0, 0, 0, 0.1);
+    perspective: 2000;
+}
+
+.item-box {
+    position: relative;
+    width: 16vmin;
+    height: 16vmin;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: all 0.225s cubic-bezier(0.65, 0.05, 0.36, 1) 0.225s;
+}
+
+.item-box:nth-child(1) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/1.JPG");
+}
+
+.item-box:nth-child(2) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/2.JPG");
+}
+
+.item-box:nth-child(3) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/3.JPG");
+}
+
+.item-box:nth-child(4) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/4.JPG");
+}
+
+.item-box:nth-child(5) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/5.JPG");
+}
+
+.item-box:nth-child(6) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/6.JPG");
+}
+
+.item-box:nth-child(7) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/7.JPG");
+}
+
+.item-box:nth-child(8) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/8.JPG");
+}
+
+.item-box:nth-child(9) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/9.JPG");
+}
+
+.item-box:nth-child(10) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/10.JPG");
+}
+
+.item-box:nth-child(11) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/11.JPG");
+}
+
+.item-box:nth-child(12) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/12.JPG");
+}
+
+.item-box:nth-child(13) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/13.JPG");
+}
+
+.item-box:nth-child(14) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/14.JPG");
+}
+
+.item-box:nth-child(15) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/15.JPG");
+}
+
+.item-box:nth-child(16) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/16.JPG");
+}
+
+.item-box:nth-child(17) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/17.JPG");
+}
+
+.item-box:nth-child(18) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/18.JPG");
+}
+
+.item-box:nth-child(19) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/19.JPG");
+}
+
+.item-box:nth-child(20) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/20.JPG");
+}
+
+.item-box:nth-child(21) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/21.JPG");
+}
+
+.item-box:nth-child(22) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/22.JPG");
+}
+
+.item-box:nth-child(23) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/23.JPG");
+}
+
+.item-box:nth-child(24) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/24.JPG");
+}
+
+.item-box:nth-child(25) .puzzle:before {
+    background-image: url("https://raw.githubusercontent.com/Asmita-Jadhav02/gandhaar-imgs/main/25.JPG");
+}
+
+.item-box:hover {
+    transform: scale(3.75, 3.75);
+    box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-box:hover .puzzle {
+    transform: translateX(0) translateY(0) translateZ(1px) rotateX(0) rotateY(0);
+    opacity: 1;
+}
+
+.item-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+}
+
+.piece {
+    position: absolute;
+    width: 8vmin;
+    height: 8vmin;
+    transform-style: preserve-3d;
+}
+
+.piece:nth-child(1) {
+    transform: translateX(-100%) translateY(-100%) rotate(0deg);
+}
+
+.piece:nth-child(1) .puzzle:before {
+    background-position: 0% 0%;
+    transform: rotate(0deg);
+}
+
+.piece:nth-child(2) {
+    transform: translateX(0%) translateY(-100%) rotate(90deg);
+}
+
+.piece:nth-child(2) .puzzle:before {
+    background-position: 100% 0%;
+    transform: rotate(-90deg);
+}
+
+.piece:nth-child(3) {
+    transform: translateX(0%) translateY(0%) rotate(180deg);
+}
+
+.piece:nth-child(3) .puzzle:before {
+    background-position: 100% 100%;
+    transform: rotate(-180deg);
+}
+
+.piece:nth-child(4) {
+    transform: translateX(-100%) translateY(0%) rotate(270deg);
+}
+
+.piece:nth-child(4) .puzzle:before {
+    background-position: 0% 100%;
+    transform: rotate(-270deg);
+}
+
+.puzzle {
+    position: absolute;
+    width: 10.30503vmin;
+    height: 10.30503vmin;
+    background-color: #000;
+    -webkit-clip-path: url(#puzzle);
+    clip-path: url(#puzzle);
+    opacity: .8;
+    transform: translateX(-22.368%) translateY(-22.368%) translateZ(0px) rotateX(0.5turn) rotateY(0.5turn);
+    transition: all 0.45s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.puzzle:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10.30503vmin;
+    height: 10.30503vmin;
+    background-size: 155.264%;
+}
+
+@-webkit-keyframes init {
+    from {
+        transform: translateX(0) translateY(0) translateZ(1px) rotateX(0) rotateY(0);
+    }
+}
+
+@keyframes init {
+    from {
+        transform: translateX(0) translateY(0) translateZ(1px) rotateX(0) rotateY(0);
+    }
+}

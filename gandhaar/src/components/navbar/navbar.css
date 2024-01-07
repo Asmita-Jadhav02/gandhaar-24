@@ -1,0 +1,76 @@
+.navbar {
+    height: 100vh;
+    width: 100px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    transition: width 0.3s;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .circle {
+    width: 65px; /* Adjust width as needed */
+    height: 65px; /* Adjust height as needed */
+ 
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px; /* Adjust font size as needed */
+    cursor: pointer;
+    background-color: #62381B;
+    box-shadow: 0 0 10px rgb(65, 44, 36); /* Circular shadow */
+    
+  }
+
+  .workshop {
+    width: 80px; 
+    height: 80px; 
+    box-shadow: 0 0 15px rgb(65, 44, 36);
+  }
+
+  .circle a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .circle a:link a:visited {
+    color: #fff;
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .expanded {
+    width: 140px; /* Adjust width as needed */
+  }
+
+  
+@media screen and (max-width:665px) {
+    .navbar {
+        display: none;
+    }
+  
+  }

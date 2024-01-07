@@ -1,3 +1,9 @@
+.gandhaar_themes {
+    height: 160vh;
+    background: linear-gradient(0deg, rgba(242, 239, 217, 1) 7%, rgba(149, 196, 181, 1) 42%, rgba(117, 181, 169, 1) 57%, rgba(72, 160, 151, 1) 73%, rgba(45, 148, 141, 1) 92%);
+
+}
+
 .theme_title {
     font-family: 'Great Vibes';
     font-size: 11.5vw;
@@ -29,6 +35,7 @@
     z-index: 1;
     transition: all var(--animation-speed-normal) ease-in-out;
     cursor: pointer;
+    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card.active {
@@ -76,16 +83,22 @@
 .card.active .card__infos {
     top: 0;
     bottom: 0;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .card.active .card__day {
     transform: translateY(0);
+    font-size: 2.5vw;
+}
+
+.card.active:hover .card__image {
+    filter: brightness(0.575) saturate(100%);
 }
 
 .card__theme {
     display: none;
     margin: 0;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     color: var(--cards-text-color);
     text-decoration: none;
     transform: translateY(0.65rem);
@@ -94,7 +107,7 @@
 }
 
 .card__theme.desc {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .card.active .card__theme {
@@ -105,6 +118,10 @@
 
 
 @media screen and (max-width:665px) {
+
+    .gandhaar_themes {
+        height: 130vh;
+    }
 
     .cards {
         flex-direction: column;
@@ -135,6 +152,11 @@
 
     .card__theme.desc {
         font-size: 8vw;
+    }
+
+
+    .card.active .card__day {
+        font-size: 6vw;
     }
 
     .theme_title {

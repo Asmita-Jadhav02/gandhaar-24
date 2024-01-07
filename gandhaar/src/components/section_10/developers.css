@@ -1,0 +1,95 @@
+.dev-title {
+    font-family: 'Great Vibes';
+    font-size: 7.5vmax;
+    color: black;
+    z-index: 9;
+    position: relative;
+    text-shadow: -3px 4px blanchedalmond;
+    margin: 0;
+    padding-bottom: 5vh;
+}
+
+.team-carousel {
+    max-width: 80vw;
+    background: rgb(226,50,75);
+    background: linear-gradient(45deg, rgba(226,50,75,1) 0%, rgba(226,50,75,0.8772759103641457) 35%, rgba(226,50,75,0.5635504201680672) 100%);
+    padding: 2vw;
+    border-radius: 10px;
+    margin: 0 auto 100px; 
+    box-shadow: 20px 20px 20px rgba(17, 16, 16, 0.1);
+  }
+  
+  .grid-title {
+    color: #f8f2f2;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  
+  }
+  
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .member-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  
+  }
+  
+  .member-title {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+@media screen and (max-width: 665px) {
+
+    .dev-title {
+font-size: 8vmax;
+text-shadow: -3px 1.5px blanchedalmond;
+
+    }
+
+.team-carousel {
+    max-width: 100vw;
+}
+
+    .team-members {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px; 
+    }
+
+    .team-member {
+        padding: 10px; 
+        margin-bottom: 10px; 
+    }
+
+    .button-container button {
+        font-size: 16px; 
+    }
+}
